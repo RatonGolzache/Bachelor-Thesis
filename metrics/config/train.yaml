@@ -1,0 +1,36 @@
+defaults:
+    - model: default
+    - training: cpc
+
+resume: false
+checkpoint_dir: ./mi_cls_lf2
+data_root: data_cremad
+
+checkpoint_path: ./adv1_cls_cremad/model.ckpt-800.pt
+# checkpoint_path: ./gcl1_cls_cremad/model.ckpt-800.pt
+classifier_path: ./checkpoint_spk_classifiers_adv1_cls_cremad/model.ckpt-100.pt
+path_for_plots: ./gcl1_cls_cremad/model.ckpt-800.pt
+mi_weight: 0.01
+mi_lr: 3e-4
+mi_iters: 5
+
+sampling: sameSeq
+train_file: train
+valid_file: valid
+
+encoder_lf0_type: no_emb
+use_CSMI: True  # use MI between content and speaker
+use_CPMI: True  # use MI between content and pitch
+use_PSMI: True  # use MI between picth and speaker
+use_ECMI: True # use MI between emotion and content
+use_SEMI: True # use MI between emotion and speaker
+use_EPMI: True # use MI between emotion and pitch
+
+use_amp: False # set to True to speed up training
+
+classifier_input_dim: 256
+classifier_num_classes: 5
+classifier_num_classes_cremad: 6
+classifier_num_speakers: 8
+classifier_num_speakers_cremad: 91
+kl_divergence_coef: 100

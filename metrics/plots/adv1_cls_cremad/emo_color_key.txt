@@ -1,0 +1,6 @@
+Emotion label 0: NEU
+Emotion label 1: ANG
+Emotion label 2: HAP
+Emotion label 3: SAD
+Emotion label 4: FEA
+Emotion label 5: DIS

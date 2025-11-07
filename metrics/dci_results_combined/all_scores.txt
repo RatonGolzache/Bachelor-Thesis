@@ -1,0 +1,96 @@
+Model: adv1
+  Speaker disentanglement: 0.691241
+  Speaker test accuracy: 0.972143
+  Emotion disentanglement: 0.044009
+  Emotion test accuracy: 0.805200
+
+Model: adv100
+  Speaker disentanglement: 0.094779
+  Speaker test accuracy: 0.874643
+  Emotion disentanglement: 0.140777
+  Emotion test accuracy: 0.805543
+
+Model: adv10_cls
+  Speaker disentanglement: 0.839928
+  Speaker test accuracy: 0.996116
+  Emotion disentanglement: 0.670566
+  Emotion test accuracy: 0.895429
+
+Model: adv1_cls
+  Speaker disentanglement: 0.935057
+  Speaker test accuracy: 0.997634
+  Emotion disentanglement: 0.996522
+  Emotion test accuracy: 0.929886
+
+Model: adv5_cls
+  Speaker disentanglement: 0.881928
+  Speaker test accuracy: 0.997054
+  Emotion disentanglement: 0.883800
+  Emotion test accuracy: 0.926343
+
+Model: gcl05
+  Speaker disentanglement: 0.944405
+  Speaker test accuracy: 0.999330
+  Emotion disentanglement: 0.999106
+  Emotion test accuracy: 0.918114
+
+Model: gcl1
+  Speaker disentanglement: 0.951926
+  Speaker test accuracy: 0.999821
+  Emotion disentanglement: 0.998778
+  Emotion test accuracy: 0.924800
+
+Model: gcl1_cls
+  Speaker disentanglement: 0.968971
+  Speaker test accuracy: 0.999598
+  Emotion disentanglement: 0.997921
+  Emotion test accuracy: 0.922400
+
+Model: just_cls
+  Speaker disentanglement: 0.943758
+  Speaker test accuracy: 0.997500
+  Emotion disentanglement: 0.996211
+  Emotion test accuracy: 0.928800
+
+Model: mi
+  Speaker disentanglement: 0.866291
+  Speaker test accuracy: 0.993393
+  Emotion disentanglement: 0.012798
+  Emotion test accuracy: 0.799314
+
+Model: mi_cls
+  Speaker disentanglement: 0.990703
+  Speaker test accuracy: 0.998259
+  Emotion disentanglement: 0.916641
+  Emotion test accuracy: 0.928171
+
+Model: mi_emocls
+  Speaker disentanglement: 0.849864
+  Speaker test accuracy: 0.992411
+  Emotion disentanglement: 0.995822
+  Emotion test accuracy: 0.929086
+
+Model: mi_lf1
+  Speaker disentanglement: 0.974972
+  Speaker test accuracy: 0.998080
+  Emotion disentanglement: 0.974094
+  Emotion test accuracy: 0.926629
+
+Model: mi_lf2
+  Speaker disentanglement: 0.981304
+  Speaker test accuracy: 0.997679
+  Emotion disentanglement: 0.911578
+  Emotion test accuracy: 0.927771
+
+Model: mi_lf3
+  Speaker disentanglement: 0.913024
+  Speaker test accuracy: 0.997366
+  Emotion disentanglement: 0.991359
+  Emotion test accuracy: 0.924571
+
+Model: mi_spkcls
+  Speaker disentanglement: 0.947062
+  Speaker test accuracy: 0.998259
+  Emotion disentanglement: 0.130215
+  Emotion test accuracy: 0.855543
+

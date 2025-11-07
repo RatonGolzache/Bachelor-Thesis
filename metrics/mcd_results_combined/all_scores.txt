@@ -1,0 +1,48 @@
+Model: adv1
+Average MCD: 12.211848559825109
+
+Model: adv100
+Average MCD: 19.789200502740336
+
+Model: adv10_cls
+Average MCD: 12.196837013663911
+
+Model: adv1_cls
+Average MCD: 12.197218077411048
+
+Model: adv5_cls
+Average MCD: 12.195371742135322
+
+Model: gcl05
+Average MCD: 12.577222030072278
+
+Model: gcl1
+Average MCD: 12.529570564880986
+
+Model: gcl1_cls
+Average MCD: 12.445376089062433
+
+Model: just_cls
+Average MCD: 11.898829826703514
+
+Model: mi
+Average MCD: 11.700797617939594
+
+Model: mi_cls
+Average MCD: 11.862850448643439
+
+Model: mi_emocls
+Average MCD: 11.75395929515029
+
+Model: mi_lf1
+Average MCD: 11.819039691400372
+
+Model: mi_lf2
+Average MCD: 11.800635472763034
+
+Model: mi_lf3
+Average MCD: 11.821013253167152
+
+Model: mi_spkcls
+Average MCD: 11.852806948870242
+

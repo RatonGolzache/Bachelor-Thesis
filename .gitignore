@@ -1,0 +1,10 @@
+.env
+data
+Papers
+checkpoints
+checkpoints_cremad
+checkpoints_metric_classifiers
+stylevc-main/outputs
+frankenstein/outputs
+stylevc-main/vocoder
+frankenstein/vocoder

@@ -1,0 +1,24 @@
+Model: adv1_cls_cremad
+  Speaker disentanglement: 0.525546
+  Speaker test accuracy: 0.992465
+  Emotion disentanglement: 0.973207
+  Emotion test accuracy: 0.853785
+
+Model: gcl1_cls_cremad
+  Speaker disentanglement: 0.969868
+  Speaker test accuracy: 0.996654
+  Emotion disentanglement: 0.999310
+  Emotion test accuracy: 0.848596
+
+Model: gcl1_cremad
+  Speaker disentanglement: 0.959518
+  Speaker test accuracy: 0.996431
+  Emotion disentanglement: 0.995190
+  Emotion test accuracy: 0.845238
+
+Model: mi_lf2_cremad
+  Speaker disentanglement: 0.578433
+  Speaker test accuracy: 0.992291
+  Emotion disentanglement: 0.824710
+  Emotion test accuracy: 0.858059
+

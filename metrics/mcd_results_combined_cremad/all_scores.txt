@@ -1,0 +1,12 @@
+Model: adv1_cls_cremad
+Average MCD: 16.70884746575337
+
+Model: gcl1_cls_cremad
+Average MCD: 17.112052221525087
+
+Model: gcl1_cremad
+Average MCD: 17.12097556633312
+
+Model: mi_lf2_cremad
+Average MCD: 17.42170962459886
+

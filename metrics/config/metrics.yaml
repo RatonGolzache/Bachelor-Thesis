@@ -1,0 +1,14 @@
+defaults:
+    - model: default
+    - training: cpc
+
+data_root: ../data_cremad
+data_root_plots: ../data/data_cremad
+data_root_mcd: ../data_cremad
+checkpoint_dir: ../checkpoints_cremad/
+checkpoint_dir_mcd: ../checkpoints_cremad/
+
+classifier_num_classes: 5
+classifier_num_classes_cremad: 6
+classifier_num_speakers: 8
+classifier_num_speakers_cremad: 91

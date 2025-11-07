@@ -1,0 +1,55 @@
+defaults:
+    - model: default
+
+# checkpoint: ./checkpoint/model.ckpt-500.pt
+src_spks: 0013,0016
+trg_spks: 0011,0018
+
+mode: M-M,F-F
+stat_path: path/to/f0_mean/and/f0_std
+data_path: path/to/Dataset
+trg_path: path/to/Dataset
+# out_path: path/to/samples
+emotion: Angry
+mel_state_path: path/to/mel_stats.npy
+
+# vocoder_path: path/to/vocoder/checkpoint-1000000steps.pkl
+
+# ... other config fields ...
+target_mel_path: D:\Bsc-Thesis\stylevc-main\data_esd\test\Angry\mels\0011\0011_000367.npy
+target_f0_path: D:\Bsc-Thesis\stylevc-main\data_esd\test\Angry\lf0\0011\0011_000367.npy
+ref_mel_path: D:\Bsc-Thesis\stylevc-main\data_esd\test\Happy\mels\0011\0011_000702.npy
+ref_f0_path: D:\Bsc-Thesis\stylevc-main\data_esd\test\Happy\lf0\0011\0011_000702.npy
+ref_mel_path_2: D:\Bsc-Thesis\stylevc-main\data_esd\test\Neutral\mels\0011\0011_000010.npy
+ref_f0_path_2: D:\Bsc-Thesis\stylevc-main\data_esd\test\Neutral\lf0\0011\0011_000010.npy
+ref_mel_path_3: D:\Bsc-Thesis\stylevc-main\data_esd\test\Neutral\mels\0012\0012_000002.npy
+ref_f0_path_3: D:\Bsc-Thesis\stylevc-main\data_esd\test\Neutral\lf0\0012\0012_000002.npy
+ref_mel_path_4: D:\Bsc-Thesis\stylevc-main\data_esd\test\Neutral\mels\0016\0016_000001.npy
+ref_f0_path_4: D:\Bsc-Thesis\stylevc-main\data_esd\test\Neutral\lf0\0016\0016_000001.npy
+ref_mel_path_5: D:\Bsc-Thesis\stylevc-main\data_esd\test\Surprise\mels\0016\0016_001433.npy
+ref_f0_path_5: D:\Bsc-Thesis\stylevc-main\data_esd\test\Surprise\lf0\0016\0016_001433.npy
+
+ref_mel_path_ang: D:\Bsc-Thesis\stylevc-main\data_esd\test\Angry\mels\0011\0011_000368.npy
+ref_f0_path_ang: D:\Bsc-Thesis\stylevc-main\data_esd\test\Angry\lf0\0011\0011_000368.npy
+ref_mel_path_ang_2: D:\Bsc-Thesis\stylevc-main\data_esd\test\Angry\mels\0016\0016_000367.npy
+ref_f0_path_ang_2: D:\Bsc-Thesis\stylevc-main\data_esd\test\Angry\lf0\0016\0016_000367.npy
+ref_mel_path_ang_3: D:\Bsc-Thesis\stylevc-main\data_esd\test\Angry\mels\0016\0016_000354.npy
+ref_f0_path_ang_3: D:\Bsc-Thesis\stylevc-main\data_esd\test\Angry\lf0\0016\0016_000354.npy
+ref_mel_path_neu: D:\Bsc-Thesis\stylevc-main\data_esd\test\Neutral\mels\0016\0016_000001.npy
+ref_f0_path_neu: D:\Bsc-Thesis\stylevc-main\data_esd\test\Neutral\lf0\0016\0016_000001.npy
+
+
+
+
+cremad_target_mel_path: D:\Bsc-Thesis\stylevc-main\data_cremad\test\ANG\mels\1001\1001_IOM_ANG_XX.npy
+cremad_target_f0_path: D:\Bsc-Thesis\stylevc-main\data_cremad\test\ANG\lf0\1001\1001_IOM_ANG_XX.npy
+cremad_ref_mel_path: D:\Bsc-Thesis\stylevc-main\data_cremad\test\HAP\mels\1001\1001_TIE_HAP_XX.npy
+cremad_ref_f0_path: D:\Bsc-Thesis\stylevc-main\data_cremad\test\HAP\lf0\1001\1001_TIE_HAP_XX.npy
+cremad_ref_mel_path_2: D:\Bsc-Thesis\stylevc-main\data_cremad\test\NEU\mels\1001\1001_ITH_NEU_XX.npy
+cremad_ref_f0_path_2: D:\Bsc-Thesis\stylevc-main\data_cremad\test\NEU\lf0\1001\1001_ITH_NEU_XX.npy
+
+
+checkpoint: D:\Bsc-Thesis\checkpoint-stylevc-esd\model.ckpt-750.pt
+vocoder_path: D:\Bsc-Thesis\stylevc-main\vocoder\checkpoint-1000000steps.pkl
+out_path: ./outputs
+# ... model config, etc. ...

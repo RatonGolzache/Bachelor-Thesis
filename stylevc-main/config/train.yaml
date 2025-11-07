@@ -1,0 +1,32 @@
+defaults:
+    - model: default
+    - training: cpc
+
+resume: false
+checkpoint_dir: ./checkpoint_label_forward_no_mi
+data_root: data_esd
+checkpoint_path: ./checkpoint_label_forward_no_mi/model_with_classifier.ckpt-500.pt
+classifier_path: ./checkpoint_spk_classifiers_label_forward_no_mi/model.ckpt-500.pt
+path_for_plots: ./checkpoint_label_forward_no_mi/model_with_classifier.ckpt-500.pt
+
+mi_weight: 0.01
+mi_lr: 3e-4
+mi_iters: 5
+
+sampling: sameSeq
+train_file: train
+valid_file: valid
+
+encoder_lf0_type: no_emb
+use_CSMI: True  # use MI between content and speaker
+use_CPMI: True  # use MI between content and pitch
+use_PSMI: True  # use MI between picth and speaker
+use_ECMI: True # use MI between emotion and content
+use_SEMI: True # use MI between emotion and speaker
+use_EPMI: True # use MI between emotion and pitch
+
+use_amp: False # set to True to speed up training
+
+classifier_input_dim: 256
+classifier_num_classes: 5
+classifier_num_speakers: 8
